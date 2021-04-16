@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>CV-CG</title>
+  <meta name="description" content="simple CV example created with HTML and CSS">
+  <meta name="author" content="Fly Nerd">
+  <link rel="icon" href="./img/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div>
+      <img src="./img/avatar.jpg" />
+    </div>
+    <h1>Маргарита Шоць</h1>
+    <section>
+      <p>Здравствуйте, я Маргарита. Я около двух лет занимаюсь растровой композицией, на протяжении года работаю с векторной графикой. С недавних пор изучаю after effects.</p>
+      <a href="https://www.facebook.com/flynerdpl/" target="_blank">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://www.twitter.com/flynerdpl/" target="_blank">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://www.instagram.com/flynerdpl/" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/ritalyczywek/" target="_blank">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </section>
+  </header>
+  <main>
+    <section>
+      <div class="slideshow-container">
+        <div class="mySlides fade"><br>
+          <img src="img/slider-1.png"style="height: 400px;">	
+        </div>
+        <div class="mySlides fade"><br>	
+          <video  height="400px" controls>
+            <source src="video/slider-2.mp4" type="video/mp4">
+          </video> 
+        </div>
+        <div class="mySlides fade"><br>	
+          <img src="img/slider-3.png" style="height: 400px;">
+        </div>
+        <div class="mySlides fade"><br>
+          <img src="img/slider-4.png" style="height: 400px;">	
+        </div>
+        <div class="mySlides fade"><br>	
+          <img src="img/slider-5.png" style="height: 400px;">	
+        </div>
+        <div class="mySlides fade"><br>	
+          <img src="img/slider-6.png" style="height: 400px;">	
+        </div>
+        <div class="mySlides fade"><br>
+          <img src="img/slider-7.png" style="height: 400px;">	
+        </div>
+        <div class="mySlides fade"><br>	
+          <img src="img/slider-8.png" style="height: 400px;">	
+        </div>
+        <div class="mySlides fade"><br>	
+          <img src="img/slider-9.png" style="height: 400px;">	
+        </div>
+        <div class="mySlides fade"><br>
+          <img src="img/slider-10.png" style="height: 400px;">	
+        </div>
+        <div class="mySlides fade"><br>	
+          <img src="img/slider-11.png" style="height: 400px;">	
+        </div>
+        <div class="mySlides fade"><br>	
+          <img src="img/slider-12.png" style="height: 400px;">	
+        </div>
+        <div class="mySlides fade"><br>	
+          <img src="img/slider-13.png" style="height: 400px;">	
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+        <a class="next" onclick="plusSlides(1)">&#10095</a>
+      
+      </div>
+      <br>
+      <div style="text-align: center";>
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+        <span class="dot" onclick="currentSlide(7)"></span>
+        <span class="dot" onclick="currentSlide(8)"></span>
+        <span class="dot" onclick="currentSlide(9)"></span>
+        <span class="dot" onclick="currentSlide(10)"></span>
+        <span class="dot" onclick="currentSlide(11)"></span>
+        <span class="dot" onclick="currentSlide(12)"></span>
+        <span class="dot" onclick="currentSlide(13)"></span>
+      </div>
+    </section>
+    <section>
+      <h3>Skills</h3>
+        <class class='column'>
+          <ul>
+            <li>Adobe Photoshop</li>
+            <li>Adobe Illustrator</li>
+            <li>Paint Tool SAI</li>
+            <li>Adobe After Affects</li>
+          </ul>
+        </class>
+        <br>
+    </section>
+    <section>
+      <h3>Languages</h3>
+      <div class='column'>
+        <p>Русский - Native speaker</p>
+        <p>English - A2</p>
+      </div>
+    </div>
+    </section>
+  </main>
+  <footer>
+    <p>Created by: <a href="https://www.flynerd.pl/">@flynerd</a>  / <a href="https://www.linkedin.com/in/ritalyczywek/">LinkedIn</a> / 2018 </p>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+</html>
