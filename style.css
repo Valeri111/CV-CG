@@ -44,8 +44,8 @@ header section {
 }
 
 header img {
-  border-radius: 50%;
-  max-width: 150px;
+  max-width: 250px;
+  max-height: 250px;
 }
 
 h1 {
@@ -95,9 +95,20 @@ main section:not(:last-child) {
 .prev:hover, .next:hover {
 	background-color: rgba(255, 255, 255, 0.315);	
 }
+.f-black {
+  color: black;
+}
+.mySlides {
+  max-width: 90vw;
+  height: 850px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-.mySlides{
-	text-align: center;
+.mySlides img{
+  max-width: 80vw;
+  height: auto;
 }
 
 .dot{
@@ -152,6 +163,10 @@ a .fab {
   flex-wrap: wrap;
 }
 
+.skills .column {
+  width:33%;
+}
+
 .course .title {
   color: #093738;
   -ms-flex: 0 0 33.3%;
@@ -161,6 +176,7 @@ a .fab {
 
  .column ul, ul.job-description {
   list-style-type: none;
+  margin-left: -1em;
 }
 
  .column ul > li:before {
@@ -170,15 +186,31 @@ a .fab {
 }
 
 footer {
- padding: 1em 1.5em;
- background: #093738;
- color: white;
- text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em 1.5em;
+  background: #093738;
+  color: white;
+  text-align: right;
+}
+
+footer p {
+  display: flex;
+  text-align: center;
 }
 
 @media only screen and (max-width: 768px) {
   .course {
     display: block;
+  }
+
+  .mySlides {
+    min-height: 400px;
+  }
+
+  .skills .column {
+    width: 50%;
   }
 }
 
@@ -188,7 +220,7 @@ footer {
   }
 
   .skills .column {
-    max-width: 100%;
+    width: 100%;
   }
 
   footer {
